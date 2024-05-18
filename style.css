@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("conjunto-de-bateria-de-palco-e-ia-geradora-de-pratos_188544-7749.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: aliceblue;
+}
+
+.teclado{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+}   
+
+.tecla{
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    transition: all .07s ease;
+}
+
+kbd{
+    display: block;
+   
+}
+ 
+.som{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    color: blueviolet;
+}  
+ 
+.tocando{
+    transform: scale(1.1);
+    border-color: blueviolet;
+    box-shadow: 0 0 1rem cornflowerblue;
+}
